@@ -232,17 +232,21 @@ footer a {
   header h3 {
     font-size: 12px;
   }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-  .section {
+
+  section {
     padding: 30px;
   }
+
   .card-header img {
     display: none;
   }
+
   .embed {
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
   }
 }
