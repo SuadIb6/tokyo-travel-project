@@ -14,6 +14,13 @@ section {
   padding: 100px;
 }
 
+section.secondary {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -25,6 +32,35 @@ section {
 
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
 }
 
 header {
@@ -114,7 +150,21 @@ main p {
   color: #272044;
   opacity: 0.7;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
 
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
 footer {
   color: white;
   background-image: linear-gradient(
